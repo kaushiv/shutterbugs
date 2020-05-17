@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <title>timeline</title>
 
@@ -12,17 +13,46 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <style>
+    @media only screen and (max-width: 767px) {
+      .timeline:before {
+        left: 40px;
+      }
+    }
+    @media only screen and (max-width: 767px) {
+      .timeline-item {
+        align-self: baseline !important;
+        width: 100%;
+        padding: 0 30px 150px 80px;
+      }
+      .timeline-item:before {
+        left: 10px !important;
+        padding: 0 !important;
+        top: 50px;
+        text-align: center !important;
+        width: 60px;
+        border: none !important;
+      }
+      .timeline-item:last-child {
+        padding-bottom: 40px;
+      }
+      .logo {
+        width: 12% !important;
+      }
+    }
     #logo {
       position: fixed;
       top: 2%;
       left: 5%;
       z-index: 1;
     }
+    .logo {
+      width: 4%;
+    }
   </style>
 
   <body>
     <div id="logo">
-      <img src="../a/Logo Final.png" height="4%" width="4%" />
+      <img class="logo" src="../a/Logo Final.png" />
     </div>
     <div class="timeline-container" id="timeline-1">
       <div class="timeline-header">
