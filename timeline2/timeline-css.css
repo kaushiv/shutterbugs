@@ -1733,15 +1733,13 @@
 }
 
 #timeline .timeline-movement .timeline-item .timeline-panel.credits  .timeline-panel-ul .lefting-wrap {
-	float: right;
 	width: 30%;
-	height: 130px;
+	height: auto;
 	background-color: floralwhite;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.credits  .timeline-panel-ul .righting-wrap {
-	float: left;
-	width: 70%;
-	height: 130px;
+	width: 100%;
+	height: auto;
 	padding: 0 12px 0 0;
 	display: flex;
 	flex-direction: column;
@@ -1755,15 +1753,14 @@
 	clear:both;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits  .timeline-panel-ul .lefting-wrap {
-	float: left;
-	width: 30%;
-	height: 130px;
+	width: auto;
+	height: auto;
 	background-color: floralwhite;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits  .timeline-panel-ul .righting-wrap {
 	float: right;
-	width: 70%;
-	height: 130px;
+	width: 100%;
+	height: auto;
 	padding: 0 0 0 12px;
 	display: flex;
 	flex-direction: column;
