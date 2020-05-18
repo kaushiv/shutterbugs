@@ -441,9 +441,25 @@
             opacity: 1;
         }
         @media screen and (max-width: 1140px) { 
+            .container > header{
+            padding: 10px 10px 10px 10px;
+            margin: 20px 20px 20px 20px;
+            position: relative;
+            display: block;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+            text-align: center;
+        }
             .slideshow li div h3 { font-size: 100px }
         }
         @media screen and (max-width: 600px) { 
+            .container > header{
+            padding: 10px 10px 10px 10px;
+            margin: 20px 20px 20px 20px;
+            position: relative;
+            display: block;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+            text-align: center;
+        }
             .slideshow li div h3 { font-size: 50px }
         }
     </style>
@@ -476,14 +492,18 @@
 <div class="container">
 <header>
     <!-- <h1>Shutterbugs</h1> -->
+    <div>
         <a href="index.html">
-            <img src="a/Logo Final.png" alt="" class="logo"/>
-        </a>
+        <img src="a/Logo Final.png" alt="" class="logo"/>
+    </a>
+    </div>
 </header>
 <div class="footer">
+    <div style="float: left;">
     <h1>MIT-WPU Shutterbugs</h1>
     <h4> Photography | Videography | Graphic Designing <h4><br>
-    <div>
+    </div>
+    <div style="float: right;padding-top: inherit;">
       <a href="about.html">About</a>
         <a href="timeline-6/timelineo.html">Our Journey</a>
       <a href="album.html">Album</a>

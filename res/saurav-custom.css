@@ -1,27 +1,28 @@
-
 .logo {
-    max-width: 100%;
-    height: 10vh;
+  max-width: 100%;
+  height: 10vh;
 }
 
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 .footer {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: rgba(0, 0, 0, 0.6); */
   padding: 30px;
-   position: fixed;
-  bottom: 0;  
-	width: 100vw;
-	align-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  align-content: center;
 }
 
 .footer a {
@@ -30,7 +31,7 @@
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 4vh; 
+  font-size: 4vh;
   /* line-height: 25px; */
   border-radius: 4px;
   transition: ease 0.3s;
@@ -62,7 +63,7 @@
     display: block;
     /* text-align: left; */
   }
-  
+
   .footer-right {
     float: none;
   }
