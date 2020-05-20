@@ -68,3 +68,19 @@
     float: none;
   }
 }
+
+.homenavico{
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  font-size: 3vh;
+  transition: 0.3s ease;
+}
+
+.homenavico:hover{
+  color: #2e2e2e;
+  background: white;
+  border-radius: 8px;
+  transition: 0.3s ease;
+
+}
