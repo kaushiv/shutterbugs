@@ -31,7 +31,7 @@
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 4vh;
+  font-size: 3vh;
   /* line-height: 25px; */
   border-radius: 4px;
   transition: ease 0.3s;
@@ -69,7 +69,7 @@
   }
 }
 
-.homenavico{
+.homenavico {
   display: inline-block;
   padding: 1rem;
   color: white;
@@ -77,10 +77,9 @@
   transition: 0.3s ease;
 }
 
-.homenavico:hover{
+.homenavico:hover {
   color: #2e2e2e;
   background: white;
   border-radius: 8px;
   transition: 0.3s ease;
-
 }
